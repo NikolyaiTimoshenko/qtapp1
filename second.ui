@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>second</class>
+ <widget class="QMainWindow" name="second">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>245</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(31, 27, 255);
+background-color: rgb(238, 238, 238);
+border-radius: 13px;                     /* &lt;----  20px  */ 
+</string>
+    </property>
+    <property name="text">
+     <string>Говно в текстовом документе</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>210</y>
+      <width>245</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+background-color: rgb(31, 27, 255);
+	color: rgb(255, 255, 255);
+border-radius: 13px; /* Закругленные углы, если нужно */
+}
+/*color: rgb(255, 255, 255);
+background-color: rgb(120, 183, 140);
+border-radius: 20px;                     /* &lt;----  20px  */ 
+/*border: 2px solid #094065;</string>
+    </property>
+    <property name="text">
+     <string>&lt;--НАЗАД</string>
+    </property>
+    <property name="margin">
+     <number>78</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
